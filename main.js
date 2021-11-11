@@ -43,7 +43,7 @@ function gotPoses(results){
 }
 function draw(){
     image(video,0,0,600,500);
-    fill ("#FF0000");
+    fill("#FF0000");
     stroke("#FF0000");
     if (scoreRightWrist > 0.2){
         circle(leftWristX,leftWristY,20);
